@@ -12,7 +12,7 @@ int main(void)
 	n = 'a';
 	while
 		(n <= 'z') {
-			if (( n != 'q' && n != 'e') && n <= 'z')
+			if ((n != 'q' && n != 'e') && n <= 'z')
 			putchar(n);
 			n++;
 		}
