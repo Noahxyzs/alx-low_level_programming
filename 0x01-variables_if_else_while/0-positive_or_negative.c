@@ -4,7 +4,7 @@
 /**
  * main - print the result
  *
- * return Always 0
+ * Return: Always 0 (Success)
  *
  */
 
