@@ -1,27 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Entry
+ * main - prints all possible output
  *
- * Return: Always 0
+ * Return: ALways 0 (Success)
  */
 int main(void)
 {
-	int i;
+	int n, m;
 
-	int n;
-
-	i = '0';
-	n = '0';
-	for (n = 0; n <= '9'; n++)
+	for (n = 48; n <= 56; n++)
 	{
-		for (i = '0'; i <= '9'; i++)
+		for (m = 49; m <= 57; m++)
 		{
-			if (!((i == n) || (n > i)))
+			if (m > n)
 			{
 				putchar(n);
-				putchar(i);
-				if (!(i == '9' && n == '8'))
+				putchar(m);
+				if (n != 56 || m != 57)
 				{
 					putchar(',');
 					putchar(' ');
