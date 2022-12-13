@@ -1,5 +1,7 @@
 #include "main.h"
 /**
+ * main - for file
+ *
  * include main'h file guard
  *
  * create a function called print alphabet
