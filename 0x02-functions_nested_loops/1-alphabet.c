@@ -1,10 +1,6 @@
 #include "main.h"
 /**
- * main - for file
- *
- * include main'h file guard
- *
- * create a function called print alphabet
+ * print_alphabet - prints the alphabet
  */
 void print_alphabet(void)
 {
