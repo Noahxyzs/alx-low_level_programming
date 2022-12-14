@@ -7,8 +7,8 @@
 int main(void)
 {
 	unsigned long int i;
-	unsigned long int a = 0;
-	unsigned long int b = 1;
+	unsigned long int a = 1;
+	unsigned long int b = 2;
 	unsigned long int j = 1000000000;
 	unsigned long int a1, a2, b1, b2;
 
