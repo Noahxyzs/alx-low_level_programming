@@ -9,7 +9,7 @@ int main(void)
 	long int i;
 	long int a = 1;
 	long int b = 2;
-	long int j = 100000000;
+	long int j = 10000000;
 	long int a1;
 	long int a2;
 	long int b1;
