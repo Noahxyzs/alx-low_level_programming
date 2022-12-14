@@ -8,12 +8,12 @@ int main(void)
 {
 	int i;
 
-	long long int f1 = 0, f2 = 1, sum;
+	long int f1 = 0, f2 = 1, sum;
 
 	for (i = 0; i < 50; i++)
 	{
 		sum = f1 + f2;
-		printf("%i", sum);
+		printf("%lu", sum);
 		f1 = f2;
 		f2 = sum;
 		if (i == 49)
