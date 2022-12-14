@@ -16,7 +16,7 @@ int main(void)
 		printf("%i", sum);
 		f1 = f2;
 		f2 = sum;
-		if (count == 49)
+		if (i == 49)
 		{
 			printf("\n");
 		}
