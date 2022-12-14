@@ -7,14 +7,14 @@
 int main(void)
 {
 	int i;
-	unsigned long int a, b, j, sum;
+	long int a, b, j, sum;
 
 	a = 1;
 	b = 2;
 	sum = 0;
 	for (i = 1; i <= 33; ++i)
 	{
-		if (j < 4000000 && (a % 2) == 0)
+		if (a < 4000000 && (a % 2) == 0)
 		{
 			sum = sum + a;
 		}
