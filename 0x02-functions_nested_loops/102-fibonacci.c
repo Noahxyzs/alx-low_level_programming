@@ -8,7 +8,7 @@ int main(void)
 {
 	int i;
 
-	int f1 = 0, f2 = 1, sum;
+	long long int f1 = 0, f2 = 1, sum;
 
 	for (i = 0; i < 50; i++)
 	{
