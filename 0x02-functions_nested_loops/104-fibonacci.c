@@ -6,11 +6,13 @@
  */
 int main(void)
 {
-	unsigned long int i, sum;
+	unsigned long int i; 
+	unsigned long int sum;
 	unsigned long int a = 0;
 	unsigned long int b = 1;
 	unsigned long int j = 10000000000;
-	unsigned long int a1, a2, b1, b2, c1, c2;
+	unsigned long int a1, a2, b1, b2;
+       	unsigned long int c1, c2;
 
 	printf("%lu", a);
 	for (i = 0; i < 92; i++)
