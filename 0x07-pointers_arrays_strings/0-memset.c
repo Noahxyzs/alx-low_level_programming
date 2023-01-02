@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _memset - a function 
+ * _memset - a function
  * @s: add
  * @b: the desired value
  * @n: numbers to change
