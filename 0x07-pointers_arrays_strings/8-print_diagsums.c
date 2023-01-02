@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_diagsums funtion name
+ * print_diagsums - funtion name
  * @a: pointer parameter
  * @size: parameter
  * Return: Always 0 (Success)
