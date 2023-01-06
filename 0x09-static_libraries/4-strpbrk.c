@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _strpbrk - Entry point
- * @s: input
- * @accept: input
+ * _strpbrk -function name
+ * @s: parameter
+ * @accept: parameter
  * Return: Always 0 (Success)
  */
 char *_strpbrk(char *s, char *accept)
@@ -13,10 +13,10 @@ char *_strpbrk(char *s, char *accept)
 	{
 		for (k = 0; accept[k]; k++)
 		{
-			if (*s == accept[k])
-				return (s);
+		if (*s == accept[k])
+		return (s);
 		}
-		s++;
+	s++;
 	}
-	return ('\0');
+return ('\0');
 }
