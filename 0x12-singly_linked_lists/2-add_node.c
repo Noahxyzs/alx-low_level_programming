@@ -6,7 +6,7 @@
  * add_node - linked list
  * @head: list_t list
  * @str: new string
- * Return: null 
+ * Return: null
  */
 list_t *add_node(list_t **head, const char *str)
 {
